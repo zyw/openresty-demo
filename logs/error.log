@@ -1,0 +1,1070 @@
+2016/01/20 07:48:51 [alert] 4566#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/20 07:48:56 [error] 4568#0: *1 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:30: module 'xml' not found:
+	no field package.preload['xml']
+	no file '/usr/local/share/lua/5.1/lub/xml.lua'
+	no file '/usr/local/share/lua/5.1/xml/xml.lua'
+	no file '/usr/local/lib/lua/5.1/xml.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:49:31 [alert] 4569#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/20 07:49:31 [notice] 4569#0: signal process started
+2016/01/20 07:49:32 [alert] 4570#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/20 07:49:38 [error] 4572#0: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:45 [alert] 4580#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/20 07:52:45 [notice] 4580#0: signal process started
+2016/01/20 07:52:48 [alert] 4581#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/20 07:52:51 [error] 4583#0: *1 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:52 [error] 4583#0: *2 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:52 [error] 4583#0: *3 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:52 [error] 4583#0: *4 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:53 [error] 4583#0: *5 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:53 [error] 4583#0: *6 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:53 [error] 4583#0: *7 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:53 [error] 4583#0: *8 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:53 [error] 4583#0: *9 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:54 [error] 4583#0: *10 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:54 [error] 4583#0: *11 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:52:54 [error] 4583#0: *12 lua entry thread aborted: runtime error: /usr/local/share/lua/5.1/lub/init.lua:17: loop or previous error loading module 'lfs'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:18 [alert] 4589#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:55:18 [notice] 4589#0: signal process started
+2016/01/20 07:55:21 [alert] 4590#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:55:27 [error] 4592#0: *1 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:27 [error] 4592#0: *2 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:27 [error] 4592#0: *3 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:28 [error] 4592#0: *4 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:28 [error] 4592#0: *5 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:55:28 [error] 4592#0: *6 lua entry thread aborted: runtime error: error loading module 'xml' from file '/usr/local/share/lua/5.1':
+	cannot read /usr/local/share/lua/5.1: Is a directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:30: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:44 [alert] 4594#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:57:44 [notice] 4594#0: signal process started
+2016/01/20 07:57:47 [alert] 4595#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:57:50 [error] 4597#0: *1 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:52 [error] 4597#0: *2 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:52 [error] 4597#0: *3 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:52 [error] 4597#0: *4 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:52 [error] 4597#0: *5 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:52 [error] 4597#0: *6 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:57:53 [error] 4597#0: *7 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file './lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:20 [alert] 4598#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:58:20 [notice] 4598#0: signal process started
+2016/01/20 07:58:21 [alert] 4599#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:58:24 [error] 4601#0: *1 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:25 [error] 4601#0: *2 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:25 [error] 4601#0: *3 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:25 [error] 4601#0: *4 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:25 [error] 4601#0: *5 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:25 [error] 4601#0: *6 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:26 [error] 4601#0: *7 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:26 [error] 4601#0: *8 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:26 [error] 4601#0: *9 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:58:26 [error] 4601#0: *10 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/route.lua:31: module 'dbutil' not found:
+	no field package.preload['dbutil']
+	no file '../lua/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil.lua'
+	no file '/opt/openresty/lualib/dbutil/init.lua'
+	no file './dbutil.lua'
+	no file '/opt/openresty/luajit/share/luajit-2.1.0-beta1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil.lua'
+	no file '/usr/local/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil.lua'
+	no file '/opt/openresty/luajit/share/lua/5.1/dbutil/init.lua'
+	no file '/opt/openresty/lualib/dbutil.so'
+	no file './dbutil.so'
+	no file '/usr/local/lib/lua/5.1/dbutil.so'
+	no file '/opt/openresty/luajit/lib/lua/5.1/dbutil.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/vagrant/openresty-demo/lua/route.lua:31: in function </vagrant/openresty-demo/lua/route.lua:1>, client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 07:59:17 [alert] 4603#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 07:59:17 [notice] 4603#0: signal process started
+2016/01/20 07:59:18 [alert] 4604#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 08:19:16 [alert] 4738#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 08:19:16 [notice] 4738#0: signal process started
+2016/01/20 08:19:20 [alert] 4739#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 08:21:53 [error] 4741#0: *2 failed to load external Lua file "/vagrant/openresty-demo/lua/route.lua": /vagrant/openresty-demo/lua/route.lua:54: '=' expected near 'uri', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/20 08:34:08 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:09 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:09 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:09 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:09 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:09 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:38 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:39 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:39 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:39 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:39 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:39 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:40 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:40 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:48 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:49 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:49 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:49 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:50 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 08:34:50 [error] 4741#0: *6 failed to load external Lua file "/vagrant/openresty-demo/lua/checkticket.lua": /vagrant/openresty-demo/lua/checkticket.lua:2: ')' expected near ']', client: 192.168.33.1, server: localhost, request: "POST /ticket HTTP/1.1", subrequest: "/V_GATEWAY_CHECK", host: "192.168.33.10:6699"
+2016/01/20 10:18:49 [alert] 5270#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:12
+2016/01/20 10:18:49 [notice] 5270#0: signal process started
+2016/01/25 04:50:55 [alert] 2584#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/25 04:51:31 [error] 2586#0: *1 open() "/vagrant/openresty-demo/html/favicon.ico" failed (2: No such file or directory), client: 192.168.33.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.33.10:6699", referrer: "http://192.168.33.10:6699/app/test"
+2016/01/25 04:51:35 [error] 2586#0: *1 failed to load external Lua file "/vagrant/openresty-demo/lua/finder.lua": /vagrant/openresty-demo/lua/finder.lua:8: unfinished string near '"AwFdIAAAAAYAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAI', client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:53:55 [error] 2586#0: *5 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:53:56 [error] 2586#0: *7 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:53:56 [error] 2586#0: *6 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:53:57 [error] 2586#0: *8 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:56:10 [error] 2586#0: *9 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:56:11 [error] 2586#0: *10 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:56:11 [error] 2586#0: *11 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:40 [error] 2586#0: *12 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:40 [error] 2586#0: *13 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:41 [error] 2586#0: *14 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:41 [error] 2586#0: *15 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:41 [error] 2586#0: *16 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:41 [error] 2586#0: *17 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:41 [error] 2586#0: *18 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:57:42 [error] 2586#0: *19 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:58:35 [error] 2586#0: *20 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:58:35 [error] 2586#0: *21 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:58:35 [error] 2586#0: *22 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 04:58:36 [error] 2586#0: *23 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:6: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:6: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:25:48 [error] 2586#0: *24 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:25:49 [error] 2586#0: *25 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:25:49 [error] 2586#0: *26 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:25:50 [error] 2586#0: *27 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:25:50 [error] 2586#0: *28 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:30 [error] 2586#0: *29 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:31 [error] 2586#0: *30 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:31 [error] 2586#0: *31 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:32 [error] 2586#0: *32 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:32 [error] 2586#0: *33 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:32 [error] 2586#0: *34 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 05:26:32 [error] 2586#0: *35 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:28: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:28: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:02:24 [error] 2586#0: *37 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: /opt/openresty/luajit/lib/libluajit-5.1.so.2: undefined symbol: Java_com_fgtit_fpcore_MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:31 [error] 2586#0: *38 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:32 [error] 2586#0: *39 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:32 [error] 2586#0: *40 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:33 [error] 2586#0: *41 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:33 [error] 2586#0: *42 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:05:33 [error] 2586#0: *43 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:06:01 [error] 2586#0: *44 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:06:01 [error] 2586#0: *45 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:06:01 [error] 2586#0: *46 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:06:01 [error] 2586#0: *47 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:06:02 [error] 2586#0: *48 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:29: libfpcorejni.so: cannot open shared object file: No such file or directory
+stack traceback:
+coroutine 0:
+	[C]: in function 'load'
+	/vagrant/openresty-demo/lua/finder.lua:29: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:36 [error] 2586#0: *49 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:37 [error] 2586#0: *50 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:37 [error] 2586#0: *51 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:37 [error] 2586#0: *52 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:38 [error] 2586#0: *53 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:38 [error] 2586#0: *54 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:38 [error] 2586#0: *55 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:39 [error] 2586#0: *56 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:39 [error] 2586#0: *57 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:40 [error] 2586#0: *58 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:08:40 [error] 2586#0: *59 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:36 [error] 2586#0: *60 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:37 [error] 2586#0: *61 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:37 [error] 2586#0: *62 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:37 [error] 2586#0: *63 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:38 [error] 2586#0: *64 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:38 [error] 2586#0: *65 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:38 [error] 2586#0: *66 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:09:38 [error] 2586#0: *67 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: /vagrant/openresty-demo/libs/libfpcorejni.so: undefined symbol: MatchTemplate
+stack traceback:
+coroutine 0:
+	[C]: in function '__index'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:18 [error] 2586#0: *68 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:19 [error] 2586#0: *69 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:19 [error] 2586#0: *70 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:19 [error] 2586#0: *71 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:20 [error] 2586#0: *72 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:20 [error] 2586#0: *73 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:13:20 [error] 2586#0: *74 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'byte'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:18 [error] 2586#0: *75 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:19 [error] 2586#0: *76 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:19 [error] 2586#0: *77 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:19 [error] 2586#0: *78 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:20 [error] 2586#0: *79 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:20 [error] 2586#0: *80 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:15:20 [error] 2586#0: *81 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'number' to 'int *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:17:19 [error] 2586#0: *83 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'number'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:17:20 [error] 2586#0: *84 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'number'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:17:20 [error] 2586#0: *85 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'number'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:17:20 [error] 2586#0: *86 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'number'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:17:21 [error] 2586#0: *87 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: declaration specifier expected near 'number'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:32 [error] 2586#0: *89 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:33 [error] 2586#0: *90 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:33 [error] 2586#0: *91 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:33 [error] 2586#0: *92 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:33 [error] 2586#0: *93 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:33 [error] 2586#0: *94 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:18:34 [error] 2586#0: *95 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'unsigned char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:16 [error] 2586#0: *97 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:16 [error] 2586#0: *98 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:16 [error] 2586#0: *99 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:17 [error] 2586#0: *100 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:17 [error] 2586#0: *101 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:17 [error] 2586#0: *102 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:17 [error] 2586#0: *103 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:17 [error] 2586#0: *104 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:18 [error] 2586#0: *105 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:18 [error] 2586#0: *106 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:18 [error] 2586#0: *107 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:18 [error] 2586#0: *108 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:31: bad argument #1 to 'Java_com_fgtit_fpcore_MatchTemplate' (cannot convert 'string' to 'char *')
+stack traceback:
+coroutine 0:
+	[C]: in function 'Java_com_fgtit_fpcore_MatchTemplate'
+	/vagrant/openresty-demo/lua/finder.lua:31: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:43 [error] 2586#0: *110 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:44 [error] 2586#0: *111 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:44 [error] 2586#0: *112 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:19:44 [error] 2586#0: *113 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:20:10 [error] 2586#0: *115 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near 'src'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:20:10 [error] 2586#0: *116 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near 'src'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:20:11 [error] 2586#0: *117 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near 'src'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:20:11 [error] 2586#0: *118 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near 'src'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:20:11 [error] 2586#0: *119 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near 'src'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:21:26 [error] 2586#0: *121 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:21:26 [error] 2586#0: *122 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:21:27 [error] 2586#0: *123 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:21:27 [error] 2586#0: *124 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:21:27 [error] 2586#0: *125 lua entry thread aborted: runtime error: /vagrant/openresty-demo/lua/finder.lua:7: ')' expected near '*'
+stack traceback:
+coroutine 0:
+	[C]: in function 'cdef'
+	/vagrant/openresty-demo/lua/finder.lua:7: in function </vagrant/openresty-demo/lua/finder.lua:1>, client: 192.168.33.1, server: localhost, request: "GET /finder HTTP/1.1", host: "192.168.33.10:6699"
+2016/01/25 06:34:27 [alert] 3341#0: lua_code_cache is off; this will hurt performance in /vagrant/openresty-demo/conf/nginx.conf:13
+2016/01/25 06:34:27 [notice] 3341#0: signal process started

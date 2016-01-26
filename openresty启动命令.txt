@@ -1,0 +1,3 @@
+Æô¶¯ÃüÁî£ºnginx -p ../openresty-demo -c ../openresty-demo/conf/nginx.conf
+
+Í£Ö¹ÃüÁî£ºnginx -p ../openresty-demo -c ../openresty-demo/conf/nginx.conf -s stop
